@@ -101,6 +101,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# English output.
+export LC_ALL=C
 
 # Default editor vim.
 type vim >& /dev/null && export EDITOR=vim
